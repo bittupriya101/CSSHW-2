@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+.nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: #ddd;
+}
+
+/* Main Content Sections */
+.main1, .main2, .main3 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Styles */
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+}
+
+/* Text Content */
+.main3 p {
+    color: #333;
+    margin: 20px 0;
+    padding: 0 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav ul {
+        padding: 0;
+    }
+    
+    .nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
